@@ -1,0 +1,40 @@
+<aside class="sidebar">
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" 
+         alt="{{ site.title }}" 
+         class="profile-img">
+    <h1 class="site-title">{{ site.title }}</h1>
+    <p class="site-description">{{ site.description }}</p>
+  </div>
+
+  <!-- Language Switcher (optional) -->
+  <div class="lang-switcher">
+    <a href="#" class="active">En</a>
+    <!-- Add other languages if needed -->
+  </div>
+
+  <!-- Navigation -->
+  <nav class="sidebar-nav">
+    <ul>
+      {% for item in site.data.navigation %}
+      <li>
+        <a href="{{ item.link | relative_url }}" 
+           class="{% if page.url == item.link %}active{% endif %}">
+          <i class="fa {{ item.icon }}"></i>
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
+  <!-- Social Links -->
+  <div class="social-links">
+    {% for social in site.data.social %}
+    <a href="{{ social.url }}" target="_blank" rel="noopener">
+      <i class="fa {{ social.icon }}"></i>
+    </a>
+    {% endfor %}
+  </div>
+</aside>
