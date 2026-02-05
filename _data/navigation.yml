@@ -1,0 +1,19 @@
+- name: Home
+  link: /
+  icon: fa-home
+
+- name: About
+  link: /about/
+  icon: fa-user
+
+- name: Projects
+  link: /projects/
+  icon: fa-folder
+
+- name: Blog
+  link: /blog/
+  icon: fa-pencil
+
+- name: Contact
+  link: /contact/
+  icon: fa-envelope
