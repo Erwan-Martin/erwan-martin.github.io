@@ -1,0 +1,11 @@
+- platform: github
+  url: https://github.com/yourusername
+  icon: fa-github
+
+- platform: linkedin
+  url: https://linkedin.com/in/yourprofile
+  icon: fa-linkedin
+
+- platform: email
+  url: mailto:erwan.martin019@gmail.com
+  icon: fa-envelope
