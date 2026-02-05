@@ -1,7 +1,7 @@
 title: "Erwan Martin"
 description: "PhD in Neuroscience"
 baseurl: "" # or your repo name if using project pages
-url: "https://yourusername.github.io"
+url: ""
 
 # Exclude files from processing
 exclude:
