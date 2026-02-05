@@ -1,28 +1,23 @@
 ---
-layout: default
-title: Home
-hero_title: "Welcome to My Website"
-hero_subtitle: "Hi, I'm Erwan Martin"
+layout: home
+title: "Welcome to My Website"
+subtitle: "Developer | Designer | Creator"
 ---
 
-## Hi, I'm Erwan Martin
+# Hi, I'm [Your Name]
 
-I'm a PhD in neuroscience who is interested in developing spiking neural networks.
+I'm a passionate developer who loves creating things on the web.
 
-### My Projects
+## My Projects
 
-<div class="project-card">
-  <h3>Project 1</h3>
-  <p>Looking into the evolution of learning rules for recurrent spiking neural networks</p>
-</div>
+### Project 1
+Description of your first project.
 
-<div class="project-card">
-  <h3>Project 2</h3>
-  <p>Study the interaction between working memory networks and long term memory network</p>
-</div>
+### Project 2  
+Description of your second project.
 
-### Get in Touch
+## Get in Touch
 
-- Email: [erwan.martin019@gmail.com](mailto:erwan.martin019@gmail.com)
+- Email: your@email.com
 - GitHub: [yourusername](https://github.com/yourusername)
 - LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
