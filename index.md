@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Welcome to My Website"
-subtitle: "Developer | Designer | Creator"
+subtitle: " Biotech Engineer | Neurophysiology | Neural Network Dynamics"
 ---
 
 # Hi, I'm Erwan Martin
