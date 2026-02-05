@@ -1,0 +1,15 @@
+# _config.yml - SIMPLE VERSION
+title: "Your Name - Personal Website"
+description: "Your personal portfolio and blog"
+baseurl: ""  # Leave empty for username.github.io
+url: ""      # Leave empty for now
+
+# Simple theme (or create your own)
+theme: minima  # Built-in GitHub Pages theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude from processing
+exclude: [Gemfile, Gemfile.lock, README.md]
