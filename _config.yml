@@ -5,7 +5,7 @@ baseurl: ""  # Leave empty for username.github.io
 url: ""      # Leave empty for now
 
 # Simple theme (or create your own)
-theme: minima  # Built-in GitHub Pages theme
+theme: cayman  # Built-in GitHub Pages theme
 
 # Build settings
 markdown: kramdown
