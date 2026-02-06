@@ -6,14 +6,13 @@
 layout: default
 # Links page
 ---
-{%- include multi_lng/get-lng-by-url.liquid -%}
-{%- assign lng = get_lng -%}
 
-{%- assign links_data = page.page_data | default: site.data.content.links[lng].page_data -%}
+
+{%- assign links_data = page.page_data | default: site.data.content.links.en.page_data -%}
 
 <div class="multipurpose-container links-heading-container">
   <h1>{{ links_data.main.header | default: "Links" }}</h1>
-  <p>{{ links_data.main.info | default: "No data, check page_data in [language]/tabs/links.md front matter or _data/content/links/[language].yml" }}</p>
+  <p>{{ links_data.main.info | default: "No data, check page_data in _data/content/links/en.yml" }}</p>
   <div class="multipurpose-button-wrapper">
     {%- for category in links_data.category %}
       <a href="#{{ category.type }}" role="button" class="multipurpose-button link-buttons" style="background-color:{{ category.color }};">{{ category.title }}</a>
@@ -28,8 +27,8 @@ layout: default
   <table class="table {{ hover_class }}">
     <thead>
       <tr>
-        <th>{{ site.data.lang[lng].links.link_text }}</th>
-        <th>{{ site.data.lang[lng].links.info_text }}</th>
+        <th>{{ site.data.lang.en.links.link_text }}</th>
+        <th>{{ site.data.lang.en.links.info_text }}</th>
       </tr>
     </thead>
     <tbody>
