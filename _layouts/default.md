@@ -25,7 +25,7 @@ layout: util/compress
 {%- include multi_lng/get-lng-code.liquid lng = lng -%}
 
 <!DOCTYPE html>
-<html lang="{{ lng_code }}">
+<html lang="eng">
   <head>
     {% include default/header/header.html %}
     {% include default/css-include.html %}
