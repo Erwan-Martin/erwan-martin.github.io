@@ -8,28 +8,15 @@ layout: default
 ---
 
 {%- if page.img %}
-  {%- if site.data.conf.others.home.header_img_with_img_tag == true -%}
-    {%- capture home_img_tag -%} <img src="{{ page.img }}" alt=""/> {%- endcapture -%}
-    {%- capture home_img_background_style -%} style="height: unset;" {%- endcapture -%}
-  {% else %}
-    {%- capture home_img_background_style -%} style="background-image:url('{{ page.img }}');" {%- endcapture -%}
-  {%- endif -%}
+  {%- capture home_img_background_style -%} style="background-image:url('{{ page.img | relative_url }}');" {%- endcapture -%}
 {%- endif -%}
 
 <div class="multipurpose-container home-heading-container">
   <div class="home-heading" {{ home_img_background_style }}>
-    {{ home_img_tag }}
     <div class="home-heading-message">
-      {{ site.data.owner[lng].home.top_header_line1
-        | replace: site.data.conf.main.brand_replace, site.data.owner[lng].brand
-        | replace: site.data.conf.main.greetings_replace, site.data.lang[lng].constants.greetings
-        | replace: site.data.conf.main.welcome_replace, site.data.lang[lng].constants.welcome }}
-      {%- if site.data.owner[lng].home.top_header_line2 %}
-        <br>
-        {{ site.data.owner[lng].home.top_header_line2
-          | replace: site.data.conf.main.brand_replace, site.data.owner[lng].brand
-          | replace: site.data.conf.main.greetings_replace, site.data.lang[lng].constants.greetings
-          | replace: site.data.conf.main.welcome_replace, site.data.lang[lng].constants.welcome }}
+      <h1>{{ page.title }}</h1>
+      {%- if page.subtitle %}
+        <p>{{ page.subtitle }}</p>
       {% endif -%}
     </div>
   </div>
@@ -38,23 +25,19 @@ layout: default
   </div>
 </div>
 
-{%- if lng_pages.size > 0 and site.data.conf.others.home.new_posts %}
+{%- if site.posts.size > 0 %}
 <div class="multipurpose-container new-posts-container">
-  <h1>{{ site.data.lang[lng].home.new_posts_title }}</h1>
+  <h1>New Articles</h1>
   <ul class="new-posts">
-  {%- for _post in lng_pages limit: site.data.conf.others.home.new_posts_count_limit -%}
+  {%- for post in site.posts limit: 5 -%}
     <li>
-      {%- assign page_title = _post.title -%}
-      {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
-      {%- include multi_lng/get-localized-long-date-format.liquid date = _post.date -%}
-      <a href="{{ site.baseurl }}{{ _post.url }}">{{ page_title }}
-        <span>{{ _post.date | date: out_date_format }}</span>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
       </a>
     </li>
   {% endfor -%}
     <li>
-      {%- include multi_lng/get-page-by-layout.liquid layout = 'archives' -%}
-      <a href="{{ site.baseurl }}{{ layout_page_obj.url }}">{{ site.data.lang[lng].home.new_posts_show_more_button }}</a>
+      <a href="{{ '/blog/' | relative_url }}">View More ...</a>
     </li>
   </ul>
 </div>
