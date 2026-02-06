@@ -8,7 +8,7 @@ layout: default
 ---
 {%- sort: 'date' | reverse | group_by_exp:"post", "post.date | date: site.data.lang[lng].date.year" -%}
 <div class="multipurpose-container">
-  <h1>{{ site.data.lang[lng].archives.page_header }}</h1>
+  <h1>{{ site.data.lang.en.archives.page_header }}</h1>
   <div class="archives">
     {%- for year in postsByYear %}
     <div class="year">
@@ -21,11 +21,11 @@ layout: default
         {%- assign monthInt = month.name | plus: 0 -%}
         {%- comment %}-1, since array starts from zero index{% endcomment -%}
         {%- assign monthInt = monthInt | minus: 1 %}
-        <h3>{{ site.data.lang[lng].date.months[monthInt] }}</h3>
+        <h3>{{ site.data.lang.en.date.months[monthInt] }}</h3>
         <ul>
         {%- for post in month.items %}
           <li>
-            <span>{{ post.date | date: site.data.lang[lng].date.day }}</span>
+            <span>{{ post.date | date: site.data.lang.en.date.day }}</span>
             {%- assign page_title = post.title -%}
             {%- include util/auto-content-post-title-rename.liquid title = page_title -%}
             <a href="{{ post.url | relative_url }}">{{ page_title }}</a>
