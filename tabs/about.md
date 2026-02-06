@@ -9,7 +9,7 @@ img: ":about.jpg"
 # if not specified, site.time will be used.
 #date: 2022-03-03 12:32:00 +0000
 
-# for override items in _data/lang/[language].yml
+# for override items in _data/lang/en.yml
 #title: My title
 #button_name: "My button"
 # for override side_and_top_nav_buttons in _data/conf/main.yml
@@ -18,14 +18,14 @@ img: ":about.jpg"
 # seo
 # if not specified, date will be used.
 #meta_modify_date: 2022-03-03 12:32:00 +0000
-# check the meta_common_description in _data/owner/[language].yml
+# check the meta_common_description in _data/owner/en.yml
 #meta_description: ""
 
 # optional
-# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or [language]/_posts folders).
+# please use the "image_viewer_on" below to enable image viewer for individual pages or posts (_posts/ or en/_posts folders).
 # image viewer can be enabled or disabled for all posts using the "image_viewer_posts: true" setting in _data/conf/main.yml.
 #image_viewer_on: true
-# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or [language]/_posts folders).
+# please use the "image_lazy_loader_on" below to enable image lazy loader for individual pages or posts (_posts/ or en/_posts folders).
 # image lazy loader can be enabled or disabled for all posts using the "image_lazy_loader_posts: true" setting in _data/conf/main.yml.
 #image_lazy_loader_on: true
 # exclude from on site search
