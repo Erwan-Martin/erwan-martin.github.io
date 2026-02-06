@@ -22,7 +22,6 @@ layout: util/compress
   {% endif %}
 {%- endif %}
 
-{%- include multi_lng/get-lng-code.liquid lng = lng -%}
 
 <!DOCTYPE html>
 <html lang="eng">
@@ -55,7 +54,7 @@ layout: util/compress
       {%- include default/footer.html -%}
       {% if site.data.conf.main.scroll_back_to_top_button -%}
       <div class="scroll-to-top-container">
-        <a id="scroll-to-top" href="#main-wrapper" role="button" aria-label="{{ site.data.lang[lng].navigation.scroll_back_to_top }}" class="hover-effect"><i class="fa fa-angle-up"></i></a>
+        <a id="scroll-to-top" href="#main-wrapper" role="button" aria-label="{{ site.data.lang.en.navigation.scroll_back_to_top }}" class="hover-effect"><i class="fa fa-angle-up"></i></a>
       </div>
       {%- endif -%}
     </div>
