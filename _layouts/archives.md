@@ -6,7 +6,6 @@
 layout: default
 # The Archives of posts.
 ---
-{%- date: site.data.lang.en.date.year" -%}
 <div class="multipurpose-container">
   <h1>{{ site.data.lang.en.archives.page_header }}</h1>
   <div class="archives">
