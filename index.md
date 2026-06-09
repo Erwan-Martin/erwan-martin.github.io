@@ -13,16 +13,16 @@ On this site, I explore a single question across several projects: How do networ
 ## My Projects
 
 {% raw %}
-{% assign projects = site.data.content-project.en.page_data.list %}
 
 <div class="projects-container">
-  {% for project in projects %}
     <div class="project-item">
       <button class="project-button" onclick="toggleProject(this)">
-        {{ project.project_name }}
+        The study of persistent activity underlying working memory
       </button>
       <div class="project-details" style="display: none;">
-        {{ project.post | markdownify }}
+       Networks of neurons in the prefrontal cortex are responsible for holding sensory information for seconds after a stimulus disappears. When you see an object appear in your field of vision, certain neurons keep firing even after you look away, this phenomenon is called persistent activity. The dominant theory is that these neurons are wired into recurrent loops, where activity reverberates and sustains itself.
+
+Working memory represent the ability not only to remember information but also manipulate it, compare information from different sources over time and perform tasks like decision making, but many aspect of this cognitive ability are not well understood.  
       </div>
     </div>
   {% endfor %}
