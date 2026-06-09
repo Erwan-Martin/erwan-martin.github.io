@@ -4,9 +4,9 @@ title: "Neuroscience and Cognition"
 subtitle: "Biotech Engineer | Neurophysiology | Neural Network Dynamics"
 ---
 
-# Hi, I'm Erwan Martin
+# I am a researcher in  neuro-physiology and computational neuroscience
 
-I'm a researcher trying to understand the activity patterns taking place in the brain, how the neurons are organised in networks to generate those activity patterns and what are the rules that dictate how those networks evolves to result in cognition. 
+I am trying to understand the activity patterns taking place in the brain, how the neurons are organised in networks to generate those activity patterns and what are the rules that dictate how those networks evolves to result in cognition. 
 
 On this site, I explore a single question across several projects: How do networks of neurons hold, compute, and learn from information, so rapidely and efficiently. And why can’t our best AI do it as efficiently as the brain?
 
