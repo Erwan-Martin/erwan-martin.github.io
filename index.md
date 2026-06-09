@@ -25,7 +25,14 @@ On this site, I explore a single question across several projects: How do networ
 Working memory represent the ability not only to remember information but also manipulate it, compare information from different sources over time and perform tasks like decision making, but many aspect of this cognitive ability are not well understood.  
       </div>
     </div>
-  {% endfor %}
+    <div class="project-item">
+      <button class="project-button" onclick="toggleProject(this)">
+        Modeling network dynamic
+      </button>
+      <div class="project-details" style="display: none;">
+Experimental neuroscience can only offer a resticted perspective on how the activity recorded in the brain emerges, it is challenging to associate the recorded activity to underlying local network structure because their are so many interaction in the brain even in smaller animals, brain regions influence each other in ways that are difficult to understand and when trying to understand the coomputation/ cognition done by a specific brain area it is difficult to isolate what is due to that brain area structure vs what is due to the interation of this brain area with the rest of the brain. Based on result reported by experimental neuroscience, researcher have devloped models of network of neurons to try and complete the picture of how a network could self sustain a stimulus specific activity. Spiking neural network widely used to simulate the activity of such network, while other models exist, the SNN more closely replicate the dynamics of neurons over time. Meanwhile the perceptron based neural network are very different from network in the brain function. But because we better understand the math behind networks of perceptron, and we can be better trained at any scales, so they have become prevalent in artificial intelligence.
+      </div>
+    </div>
 </div>
 
 <script>
