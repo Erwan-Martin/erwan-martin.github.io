@@ -41,7 +41,7 @@ page_data:
     - type: id_attached
       project_name: "Public communication article"
       project_excerpt: "Picture"
-      img: ":project2_thumb.jpg"
+      img: ":project2_thumb.png"
       img_title: "img title2"
       date: "2025-07-23"
       post: |
