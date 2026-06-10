@@ -12,7 +12,7 @@ On this site, I explore a single question across several projects: How do networ
 
 ## My Projects
 
-{% raw %}
+
 
 <div class="projects-container">
     <div class="project-item">
@@ -72,7 +72,7 @@ function toggleProject(btn) {
   details.style.display = details.style.display === 'none' ? 'block' : 'none';
 }
 </script>
-{% endraw %}
+
 
 
 
