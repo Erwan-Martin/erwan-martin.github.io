@@ -11,12 +11,8 @@ button_name: "CV"
 
 You can download my full CV as a PDF:
 
-<a href="/assets/files/cv-erwan-martin.pdf" class="btn-base" download>Download CV (PDF)</a>
+<a href="/assets/files/CV_Erwan_Martin.pdf" class="btn-base" download>Download CV (PDF)</a>
 
 ---
 
-## Education
-...
-
-## Experience
-...
+<iframe src="/assets/files/CV_Erwan_Martin.pdf" width="100%" height="800px" style="margin-top:1rem; border: none;"></iframe>
