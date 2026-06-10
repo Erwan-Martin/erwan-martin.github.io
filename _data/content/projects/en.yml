@@ -35,6 +35,8 @@ page_data:
 
         I presented my PhD thesis on April 27th 2026. It is now available at [Erwan Martin thesis](https://uwo.scholaris.ca/items/3c02f31f-9083-4935-b8cb-9a22dd8e0ef8)
 
+        <iframe src="/assets/files/Thesis_Erwan_MARTIN.pdf" width="100%" height="800px" style="margin-top:1rem; border: none;"></iframe>
+
     # picture
     - type: id_picture
       project_name: "Example Project"
