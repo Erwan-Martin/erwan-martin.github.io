@@ -14,7 +14,7 @@ whitelist:
   - jekyll-redirect-from
 
 # Pagination
-paginate_path: "/blog/:num"
+paginate_path: "tabs/blog/:num"
 paginate: 5
 
 # Sass location - theme ?
