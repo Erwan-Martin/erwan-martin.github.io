@@ -43,9 +43,8 @@ page_data:
       project_excerpt: "Picture"
       img: ":project2_thumb.jpg"
       img_title: "img title2"
-      date: "2021-04-23"
+      date: "2025-07-23"
       post: |
         # Evolution of Neural Network models: Perceptron, Deep learning and the potential of Spiking Neural Networks
-        This is project content.
+             <iframe src="/assets/files/Public_communication_Erwan_Martin.pdf" width="100%" height="800px" style="margin-top:1rem; border: none;"></iframe>
 
-        ![Image](:project2_thumb.jpg)
