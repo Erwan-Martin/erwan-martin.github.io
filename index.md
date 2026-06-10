@@ -31,9 +31,7 @@ img: /assets/img/home/page.jpg
 .project-body.visible { display: block; }
 </style>
 
-     <body>
-        <p class="centered">## I am a researcher in neuro-physiology and computational neuroscience</p>
-    </body>
+<p class="centered">I am a researcher in neuro-physiology and computational neuroscience</p>
 
  
 I am trying to understand the activity patterns taking place in the brain, how the neurons are organised in networks to generate those activity patterns and what are the rules that dictate how those networks evolve to result in cognition.
