@@ -6,7 +6,7 @@ page_data:
   main:
     header: "Projects"
     info: "Your Project page description."
-    text_color: "white"
+    text_color: "black"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
     back_color: "lightblue"
