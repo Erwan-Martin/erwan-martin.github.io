@@ -2,6 +2,7 @@
 layout: home
 title: "Neuroscience and Cognition"
 subtitle: "Biotech Engineer | Neurophysiology | Neural Network Dynamics"
+img: /assets/img/home/page.jpg
 ---
 
 # I am a researcher in  neuro-physiology and computational neuroscience
