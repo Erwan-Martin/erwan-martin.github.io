@@ -7,12 +7,12 @@ img: /assets/img/home/page.jpg
 
 <style>
 .home-heading-message h1 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   color: white;
 }
 .home-heading-message p {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 300;
   color: white;
 }
