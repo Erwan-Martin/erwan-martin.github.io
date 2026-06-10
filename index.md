@@ -87,8 +87,8 @@ Experimental neuroscience can only offer a resticted perspective on how the acti
     <div>
     <div>
 
-    
-<style>
+
+    <style>
 .project-grid { display: grid; gap: 10px; margin: 1.5rem 0; }
 .project-card { border: 0.5px solid #ddd; border-radius: 10px; overflow: hidden; }
 .project-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; cursor: pointer; gap: 1rem; background: transparent; width: 100%; text-align: left; border: none; font-family: inherit; }
@@ -114,11 +114,12 @@ Experimental neuroscience can only offer a resticted perspective on how the acti
     </button>
     <div class="project-body">
 Explain perceptron, explain backpropagation, what does training a network means? the success of DNNs and Transformers can be explained by the simple feedforward and differentiable nature of their structure which can easly be scaled up. 
-          <div>
-    <div>
+    </div>
+  </div>
+  
 
 
-      <style>
+    <style>
 .project-grid { display: grid; gap: 10px; margin: 1.5rem 0; }
 .project-card { border: 0.5px solid #ddd; border-radius: 10px; overflow: hidden; }
 .project-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; cursor: pointer; gap: 1rem; background: transparent; width: 100%; text-align: left; border: none; font-family: inherit; }
@@ -143,11 +144,12 @@ Explain perceptron, explain backpropagation, what does training a network means?
       </div>
     </button>
     <div class="project-body">
-Why is training recurrent network through time is extremely difficult. Training a recurrent spiking neural network is extremely challenging because of non-linear interactions but it has immense potential for performing computation with low amount of computing energy. Many research has been conducted to transfer the discoveries of Deeplearning to SNN with backpropagation through time, but other solutions are also studied such as Three-Factor Learning rule that draws inspiration from the brain instead and the well knwon spike-timing dependent plasticity.
-          <div>
-    <div>
+Why is training recurrent network through time is extremely difficult. Training a recurrent spiking neural network is extremely challenging because of non-linear interactions but it has immense potential for performing computation with low amount of computing energy. Many research has been conducted to transfer the discoveries of Deeplearning to SNN with backpropagation through time, but other solutions are also studied such as Three-Factor Learning rule that draws inspiration from the brain instead and the well knwon spike-timing dependent plasticity. 
+    </div>
+  </div>
 
-      <style>
+
+     <style>
 .project-grid { display: grid; gap: 10px; margin: 1.5rem 0; }
 .project-card { border: 0.5px solid #ddd; border-radius: 10px; overflow: hidden; }
 .project-header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 1.25rem; cursor: pointer; gap: 1rem; background: transparent; width: 100%; text-align: left; border: none; font-family: inherit; }
@@ -173,8 +175,9 @@ Why is training recurrent network through time is extremely difficult. Training 
     </button>
     <div class="project-body">
 While finding a learning algorithm that can train SNN as efficiently as backpropagation is for perceptron based models remains an open problem. There as been some advances in making hardware that is more adapted for running SNN and leveraging their advantages. While standard computer chips use the VonNeumann architecture, neuromorphic computing colocalise memory and computation. By doing this is saves immense amounts of energy normally used in transporting information from memory to processing unit.
-          <div>
-    <div>
+    </div>
+  </div>
+
 
 
 <script>
