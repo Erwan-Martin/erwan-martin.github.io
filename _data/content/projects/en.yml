@@ -25,13 +25,13 @@ page_data:
   list:
     # example
     - type: id_example
-      project_name: "Large-scale clustered attractor network model evokes persistent activity in vitro through novel network clamp method"
-      project_excerpt: "PhD thesis in Neuroscience from the University of Western Ontario"
+      project_name: "PhD from the University of Western Ontario"
+      project_excerpt: "Thesis in Neuro-physiology and Network Dynamics"
       img: ":project1_thumb.jpg"
       img_title: "img title1"
       date: "2026-06-10"
       post: |
-        # Examples
+        # Large-scale clustered attractor network model evokes persistent activity in vitro through novel network clamp method
 
         I presented my PhD thesis on April 27th 2026. It is now available at [Erwan Martin thesis](https://uwo.scholaris.ca/items/3c02f31f-9083-4935-b8cb-9a22dd8e0ef8)
 
