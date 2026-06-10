@@ -6,7 +6,6 @@ title: "CV"
 button_name: "CV"
 ---
 
-## Erwan Martin
 **PhD in Neurophysiology and Network Dynamics**
 
 You can download my full CV as a PDF:
