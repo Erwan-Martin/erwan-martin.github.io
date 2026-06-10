@@ -33,7 +33,9 @@ page_data:
       post: |
         # Examples
 
-        I presented my PhD thesis on April 27th 2026
+        I presented my PhD thesis on April 27th 2026. It is now available at     - type: id_jekyiiliquid
+      title: "Erwan Martin thesis"
+      url: "https://uwo.scholaris.ca/items/3c02f31f-9083-4935-b8cb-9a22dd8e0ef8"
 
     # picture
     - type: id_picture
