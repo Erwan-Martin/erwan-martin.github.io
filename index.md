@@ -29,7 +29,7 @@ img: /assets/img/home/page.jpg
 .project-icon.open { transform: rotate(45deg); }
 .project-body { display: none; padding: 0 1.25rem 1.25rem; font-size: 14px; line-height: 1.7; color: #555; border-top: 0.5px solid #eee; padding-top: 1rem; }
 .project-body.visible { display: block; }
-
+</style>
 
 ## I am a researcher in neuro-physiology and computational neuroscience
 
