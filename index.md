@@ -32,7 +32,7 @@ img: /assets/img/home/page.jpg
 </style>
 
 # I am a researcher in neuro-physiology and computational neuroscience
-
+{: style="text-align: center;"}
  
 I am trying to understand the activity patterns taking place in the brain, how the neurons are organised in networks to generate those activity patterns and what are the rules that dictate how those networks evolve to result in cognition.
  
