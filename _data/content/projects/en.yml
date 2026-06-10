@@ -23,7 +23,7 @@ page_data:
       color: "#2FD0ED"
 
   list:
-    # example
+    # Thesis
     - type: id_example
       project_name: "PhD from the University of Western Ontario"
       project_excerpt: "Thesis in Neuro-physiology and Network Dynamics"
