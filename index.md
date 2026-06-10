@@ -124,3 +124,4 @@ function toggleProject(btn) {
 - Email: erwan.martin019@gmail.com
 - GitHub: [@Erwan-Martin](https://github.com/Erwan-Martin/)
 - LinkedIn: [Erwan Martin](https://linkedin.com/in/erwan-martin019)
+- Research gate: [@Erwan Martin](https://www.researchgate.net/profile/Erwan-Martin-3)
