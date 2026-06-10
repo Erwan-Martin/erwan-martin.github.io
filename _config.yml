@@ -24,3 +24,6 @@ sass:
 
 # Exclude
 exclude: ["Gemfile*", "vendor", ".github", ".vscode", "README*", "LICENSE"]
+
+
+future: true
