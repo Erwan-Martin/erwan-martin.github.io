@@ -5,6 +5,17 @@ subtitle: "Biotech Engineer | Neurophysiology | Neural Network Dynamics"
 img: /assets/img/home/page.jpg
 ---
 
+<style>
+.home-heading-message h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.home-heading-message p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+</style>
+
 ## I am a researcher in  neuro-physiology and computational neuroscience
 
 I am trying to understand the activity patterns taking place in the brain, how the neurons are organised in networks to generate those activity patterns and what are the rules that dictate how those networks evolves to result in cognition. 
