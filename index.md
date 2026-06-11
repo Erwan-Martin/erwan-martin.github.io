@@ -4,6 +4,16 @@ title: "Neuroscience and Programming Cognition"
 subtitle: "Biotech Engineer | Neurophysiology | Neural Network Dynamics"
 img: /assets/img/home/page.jpg
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7CHBG8K7H2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7CHBG8K7H2');
+</script>
+
  
 <style>
 .home-heading-message h1 {
