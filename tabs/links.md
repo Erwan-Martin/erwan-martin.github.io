@@ -44,6 +44,16 @@ page_data:
     header: "Links"
     info: "Your Links page description."
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7CHBG8K7H2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7CHBG8K7H2');
+</script>
+
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
     - title: "JekyII / Liquid"
