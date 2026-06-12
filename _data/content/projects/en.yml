@@ -89,8 +89,11 @@ page_data:
         Nevertheless, SNNs are considered the third generation of ANNs, SNNs are efficient
         because they have lower power consumption. Researchers are developing alternative
         neuromorphic hardware to better exploit the immense potential of SNNs [3].
+        
         [1] Ramón y Cajal, Histology of the Nervous System of Man and Vertebrates, 1995
+        
         [2] Kistler, Gerstner, Paninski, Neuronal Dynamics: From Single Neurons to Networks and
         Models of Cognition, 2014
+        
         [3] Bouvier et al., Spiking Neural Networks Hardware Implementations and Challenges: A
         Survey, 2019
