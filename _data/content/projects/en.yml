@@ -60,7 +60,7 @@ page_data:
         SNNs capture this temporal aspect of neural dynamics, often using differential equations to model the evolution of electrical potential or other mathematical equations to predict when a neuron fires an action potential. Each neuron's potential needs to be calculated at each time step, which can be time-consuming in large network with detailed neuron models and connections.
         Synapses and Neural Morphology
         Another crucial aspect of biological networks is the synapse, the point of contact where neurons transmit signals to each other. The effect of a signal on the target neuron's electric potential is called the weight of the synapse. Similar to the weights in ANNs, synapses can change the effect of a signal through various mechanisms during learning and memory.
-        Figure 1 Biological neuron by Ram’on y Cajal [1]
+        ![Figure 1 Biological neuron by Ram’on y Cajal (1) ](:Picture1.jpg)
         Another factor which adds to the complexity of neural networks in the brain is the variety
         of neurons present in the brain. The shape and size of the different parts of the neuron
         can be different from one neuron to another (Figure 1). This diversity in morphology and
