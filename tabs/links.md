@@ -76,5 +76,5 @@ page_data:
     - type: id_social
       title: "LinkedIn"
       url: "www.linkedin.com/in/erwan-martin019"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+      info: "LinkedIn page ."
 ---
