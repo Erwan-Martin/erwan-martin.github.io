@@ -71,7 +71,7 @@ page_data:
         ## Synapses and Neural Morphology
         Another crucial aspect of biological networks is the synapse, the point of contact where neurons transmit signals to each other. The effect of a signal on the target neuron's electric potential is called the weight of the synapse. Similar to the weights in ANNs, synapses can change the effect of a signal through various mechanisms during learning and memory.
         ![Figure 2 Biological neuron by Ram’on y Cajal (1) ](:Picture2.png)
-        *Figure 2 Biological neuron by Ram’on y Cajal [1] *{:data-align="center"}
+        *Figure 2 Biological neuron by Ram’on y Cajal [1]*{:data-align="center"}
         
         Another factor which adds to the complexity of neural networks in the brain is the variety
         of neurons present in the brain. The shape and size of the different parts of the neuron
