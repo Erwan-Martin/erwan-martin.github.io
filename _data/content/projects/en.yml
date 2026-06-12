@@ -62,10 +62,12 @@ page_data:
         ## Spiking Neural Networks: Mimicking Biological Neurons
         Despite being inspired by biological neurons, perceptrons function quite differently. In biological neurons, the timing of inputs is crucial; a neuron responds differently based on how long ago it received its last input. In contrast, perceptron-based networks are unaffected by timing, processing inputs sequentially like an assembly line, regardless of the intervals between steps.
         In parallel with advancements in perceptron-based ANNs, a different type of network model called spiking neural networks (SNNs) has been developed. SNNs more closely replicate the functioning of biological neurons. In the brain, neurons have an electrical potential that varies continuously over time. This potential increases with excitatory inputs and decreases with inhibitory inputs. If the potential reaches a threshold, the neuron sends a signal to connected neurons. The response of neurons based on membrane voltage and the presence of both excitatory and inhibitory inputs allow for complex, non-linear dynamics. It is that complexity that enable cognition in the brain.
-        SNNs capture this temporal aspect of neural dynamics, often using differential equations to model the evolution of electrical potential or other mathematical equations to predict when a neuron fires an action potential. Each neuron's potential needs to be calculated at each time step, which can be time-consuming in large network with detailed neuron models and connections.
+        SNNs capture this temporal aspect of neural dynamics, often using differential equations to model the evolution of electrical potential or other mathematical equations to predict when a neuron fires an action potential. 
+        ![Figure 1 Artificial neural network (ANN) and Spiking neural network (SNN) (1) ](:Picture1.png)
+        Each neuron's potential needs to be calculated at each time step, which can be time-consuming in large network with detailed neuron models and connections.
         ## Synapses and Neural Morphology
         Another crucial aspect of biological networks is the synapse, the point of contact where neurons transmit signals to each other. The effect of a signal on the target neuron's electric potential is called the weight of the synapse. Similar to the weights in ANNs, synapses can change the effect of a signal through various mechanisms during learning and memory.
-        ![Figure 1 Biological neuron by Ram’on y Cajal (1) ](:Picture1.png)
+        ![Figure 2 Biological neuron by Ram’on y Cajal (1) ](:Picture2.png)
         Another factor which adds to the complexity of neural networks in the brain is the variety
         of neurons present in the brain. The shape and size of the different parts of the neuron
         can be different from one neuron to another (Figure 1). This diversity in morphology and
