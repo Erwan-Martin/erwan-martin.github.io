@@ -55,7 +55,7 @@ page_data:
       type: id_programming
       color: "#F4A273"
     - title: "Social"
-      type: id_Social
+      type: id_social
       color: "#62b462"
 
   list:
@@ -67,13 +67,13 @@ page_data:
       info: "I present the scripts written during my PhD and afterward"
 
     # Writing
-    - type: id_Writing
+    - type: id_writing
       title: "Inspiring minds"
       url: "https://ir.lib.uwo.ca/inspiringminds/274/"
       info: "Studying the brain, one neuron at a time"
 
     # Social
-    - type: Social
+    - type: id_social
       title: "LinkedIn"
       url: "www.linkedin.com/in/erwan-martin019"
       info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
