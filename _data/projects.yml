@@ -1,0 +1,42 @@
+# Coding projects shown on /projects/.
+- name: Ring attractor model of persistent activity
+  repo: Ring_model_persistent_activity
+  year: 2022
+  area: Computational neuroscience
+  stack: [Python, Brian2]
+  summary: >-
+    A leaky integrate-and-fire network of the prefrontal cortex, with
+    excitatory and inhibitory populations and AMPA, NMDA and GABA channels,
+    running a delayed-response task. Inspired by Compte et al. (2000).
+  points:
+    - Excitatory neurons are tuned to one of 8 cue positions
+    - A bump of activity persists through the delay period after the cue disappears
+    - This is the starting point for the clustered model in my thesis
+
+- name: HD-MEA retina analysis
+  repo: Microelectrode-array-Analysis
+  year: 2026
+  area: Electrophysiology · data analysis
+  stack: [Python, HDF5, NumPy, SciPy]
+  summary: >-
+    End-to-end analysis of a MaxWell MaxOne high-density microelectrode-array
+    recording of a retina responding to moving bars. Spikes are re-detected from
+    the raw signal and each unit's light response is characterised.
+  points:
+    - Spike-triggered averages mapped onto electrode positions
+    - Intrinsic and stimulus-response metrics exported for every unit
+    - Decodes the direction of the moving bar and tests direction selectivity with permutation tests
+    - Unit-tested library, plus a resumable, checksum-verified data download
+
+- name: Seq2seq movie-dialogue chatbot
+  repo: Overly_seq2seq_bot
+  year: 2022
+  area: Machine learning · NLP
+  stack: [Python, Keras, Word2Vec]
+  summary: >-
+    A GRU encoder–decoder trained on the Cornell Movie-Dialogs corpus, using
+    Word2Vec embeddings trained on the corpus itself.
+  points:
+    - The encoder compresses the question into one vector that conditions every decoding step
+    - Greedy or temperature-sampled decoding
+    - A student project from 2022
