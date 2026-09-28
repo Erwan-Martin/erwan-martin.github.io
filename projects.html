@@ -1,0 +1,27 @@
+---
+title: Coding projects
+kicker: Code
+permalink: /projects/
+lede: Simulation, analysis and machine-learning code I’ve written during and after my PhD. Everything is open on GitHub.
+---
+<div class="project-list">
+  {% for p in site.data.projects %}
+  <article class="project">
+    <div class="project-meta">
+      <p class="t-date">{{ p.year }}</p>
+      <p class="muted small">{{ p.area }}</p>
+    </div>
+    <div class="project-body">
+      <h2><a href="https://github.com/{{ site.author.github }}/{{ p.repo }}">{{ p.name }}</a></h2>
+      <p>{{ p.summary }}</p>
+      {% if p.points %}<ul class="points">{% for pt in p.points %}<li>{{ pt }}</li>{% endfor %}</ul>{% endif %}
+      <div class="project-foot">
+        <ul class="chips">{% for s in p.stack %}<li>{{ s }}</li>{% endfor %}</ul>
+        <a class="text-link" href="https://github.com/{{ site.author.github }}/{{ p.repo }}">View on GitHub →</a>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<p class="muted more-code">More on <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>.</p>
