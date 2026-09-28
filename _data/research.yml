@@ -1,0 +1,82 @@
+# Research interests shown on the home page.
+# tag: neuro | model | ai  (sets the colour)
+# img / caption / link are optional.
+
+- title: Persistent activity and working memory
+  short: How the prefrontal cortex holds information after the stimulus is gone.
+  tag: neuro
+  label: Neuroscience
+  img: /assets/img/projects/project1_thumb.jpg
+  caption: Working memory components (Baddeley's multi-component model).
+  text: |
+    Networks of neurons in the prefrontal cortex hold sensory information for
+    seconds after a stimulus disappears. When an object appears in your field of
+    vision, some neurons keep firing even after you look away. This is called
+    **persistent activity**.
+
+    The dominant theory is that these neurons are wired into recurrent loops,
+    where activity reverberates and sustains itself. Working memory is more than
+    remembering, though. It is the ability to manipulate information, compare
+    inputs from different sources over time, and use them to make decisions.
+  link: { text: Read the thesis, url: /publications/#thesis }
+
+- title: Modelling network dynamics
+  short: Spiking networks that complete the picture experiments can only sketch.
+  tag: model
+  label: Modelling
+  img: /assets/img/projects/projects-heading.jpg
+  caption: "Sustained firing of a neuron: the signature of persistent activity."
+  text: |
+    Experimental neuroscience only offers a restricted view of how the activity
+    recorded in the brain emerges. Building on experimental results, researchers
+    develop models of neuron networks to show how a network could sustain a
+    stimulus-specific activity by itself.
+
+    **Spiking neural networks** are widely used for this. They replicate how
+    neurons behave over time much more closely than perceptron-based networks.
+    In my PhD, I tested such models by injecting their synaptic conductances into
+    living neurons using a *network clamp*.
+  link: { text: See the ring-model code, url: /projects/ }
+
+- title: Why brain-like networks are hard to train
+  short: Recurrent, spiking, non-differentiable, and still learning somehow.
+  tag: model
+  label: Modelling
+  text: |
+    Training recurrent spiking neural networks through time is extremely
+    challenging because of their non-linear interactions. Many approaches bring
+    deep-learning advances to SNNs through *backpropagation through time*.
+
+    Other approaches take inspiration from the brain itself, such as
+    **three-factor learning rules** and the well-known **spike-timing dependent
+    plasticity** (STDP).
+
+- title: Performant but energy-hungry AI
+  short: What transformers gained by scaling, and what the brain does for 20 watts.
+  tag: ai
+  label: AI
+  img: /assets/img/projects/project2_thumb.png
+  caption: A perceptron (ANN) versus a spiking neuron (SNN).
+  text: |
+    Deep neural networks and transformers succeed largely because their
+    structure is simple, feedforward and differentiable, so it can easily be
+    scaled up.
+
+    That power comes at an enormous energy cost. It is a stark contrast with the
+    brain's sparse, event-driven computation, which runs on roughly the power of
+    a light bulb.
+  link: { text: Read my article on ANNs vs SNNs, url: /publications/neural-network-models/ }
+
+- title: "A tale of two architectures: neuromorphic computing"
+  short: Moving memory and computation back into the same place.
+  tag: ai
+  label: AI
+  text: |
+    Nobody has yet found a learning algorithm that trains SNNs as efficiently as
+    backpropagation trains ANNs. Meanwhile, hardware better suited to running
+    SNNs has made progress.
+
+    Standard chips use the **von Neumann architecture**, which keeps memory and
+    processing in separate units. **Neuromorphic** chips place memory and
+    computation together, which saves the large amount of energy normally spent
+    moving information between the two.
