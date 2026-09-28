@@ -1,29 +1,26 @@
-# Keep the same markdown settings
-highlighter: rouge
+title: Erwan Martin
+tagline: Neuroscientist & bio-engineer
+description: >-
+  Erwan Martin, PhD in neuroscience (Western University). Neurophysiology,
+  spiking neural network modelling, working memory and brain-inspired AI.
+url: https://erwan-martin.github.io
+lang: en
+
+author:
+  name: Erwan Martin
+  email: erwan.martin019@gmail.com
+  github: Erwan-Martin
+  linkedin: erwan-martin019
+  researchgate: Erwan-Martin-3
+
 markdown: kramdown
-kramdown:
-  syntax_highlighter: rouge
+highlighter: rouge
+permalink: /blog/:year/:title/
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-redirect-from
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }
 
-whitelist:
-  - jekyll-paginate
-  - jekyll-redirect-from
-
-# Pagination
-paginate_path: "tabs/blog/:num"
-paginate: 5
-
-# Sass location - theme ?
-sass:
-  sass_dir: assets/_scss
-  style: compressed
-
-# Exclude
-exclude: ["Gemfile*", "vendor", ".github", ".vscode", "README*", "LICENSE"]
-
-
-future: true
+exclude: [README.md, Gemfile, Gemfile.lock, vendor, .vscode]
