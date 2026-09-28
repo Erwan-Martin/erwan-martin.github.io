@@ -1,0 +1,90 @@
+---
+title: Publications
+kicker: Publications & writing
+lede: Research output from my PhD and pieces written for a wider audience.
+---
+<section class="pub" id="thesis">
+  <div class="pub-meta">
+    <span class="tag tag-neuro">PhD thesis</span>
+    <p class="t-date">27 April 2026 · Western University</p>
+  </div>
+  <div class="pub-body">
+    <h2>Large-scale clustered attractor network model evokes persistent activity in vitro through novel network clamp method</h2>
+    <p class="muted">Erwan Martin · Supervisors: Lyle Muller, Wataru Inoue · Doctor of Philosophy in Neuroscience · CC BY 4.0</p>
+
+    <div class="pub-links">
+      <a class="btn btn-primary" href="{{ '/assets/files/Erwan_Martin_PhD_2025_thesis.pdf' | relative_url }}" download>Download PDF (7 MB)</a>
+      <a class="btn" href="https://uwo.scholaris.ca/items/3c02f31f-9083-4935-b8cb-9a22dd8e0ef8" target="_blank" rel="noopener">Western repository</a>
+    </div>
+
+    <div class="pub-tabs" data-tabs>
+      <div class="tablist" role="tablist">
+        <button role="tab" aria-selected="true" aria-controls="t-lay" id="tab-lay">In plain words</button>
+        <button role="tab" aria-selected="false" aria-controls="t-abs" id="tab-abs" tabindex="-1">Abstract</button>
+      </div>
+      <div class="prose tabpanel" role="tabpanel" id="t-lay" aria-labelledby="tab-lay">
+        <p>The brain is made of neurons that communicate by sending signals to each other. Their combined activity produces thought and memory. A good example is <strong>working memory</strong>: the ability to hold information, like a phone number, in mind for a few seconds.</p>
+        <p>A leading theory says working memory is maintained by circuits of neurons that sustain their own activity after the stimulus disappears. Existing computer models of these circuits don’t fully mimic the brain’s natural activity.</p>
+        <p>We built a new network model whose architecture more closely mirrors the cortex. To test whether it is plausible, we took the signals received by one neuron in the model and delivered them to a <em>real, living neuron</em> in a lab dish. The neuron responded with electrical activity that closely matched what the model predicted.</p>
+      </div>
+      <div class="prose tabpanel" role="tabpanel" id="t-abs" aria-labelledby="tab-abs" hidden>
+        <p>Ring attractor models have been instrumental in theorizing the neural basis of working memory, with the seminal work of Compte et al. (2000) demonstrating the role of recurrent excitation and slow NMDA dynamics in sustaining persistent activity. However, these models possess significant limitations: they implement a connectivity profile based on short-range excitation that does not reflect the known topology of cortical microcircuits in the prefrontal cortex. Additionally, the ring model framework cannot fully capture the irregular firing patterns observed <em>in vivo</em>. We hypothesize that because of the scale of this canonical ring model, the synaptic signals operate at a larger amplitude than is biologically plausible and would not evoke a physiological response in a real neuron.</p>
+        <p>To test this hypothesis, we employed our novel “network clamp” technique, injecting simulated synaptic conductances from the model into biological neurons <em>in vitro</em>. This revealed that the excitation-dominated input from the classical model drives the neuron into a non-physiological, overstimulated state characterized by sustained depolarization block and failure to generate action potentials, thus failing to replicate the model’s predicted output.</p>
+        <p>To address these limitations, we developed a novel spiking neural network that includes a more biologically realistic, clustered excitatory connectivity at much larger scale. In this clustered model, persistent activity emerges from coordinated increase in AMPA, NMDA, and GABA conductances. Those three conductance signals interact to generate a fluctuation-driven regime, which, when injected into real neurons using network clamp, evoked a physiological spiking activity that aligned closely with the model’s prediction.</p>
+        <p>The difference between the two models is that while the persistent activity in the ring model is dominated by slow excitation that maintains suprathreshold input, the persistent activity in our model is maintained by input fluctuations that drive spiking while voltage remains below threshold on average, a dynamic that avoids depolarization block in biological neurons.</p>
+        <p>More broadly, this work introduces our network clamp method to test the biological validity of computational models in living neurons. This approach provides a powerful tool for studying the complex interplay between single neuron properties and emergent network dynamics, establishing a crucial bridge between theoretical and experimental neuroscience.</p>
+      </div>
+    </div>
+
+    <ul class="tags"><li>spiking neural networks</li><li>whole-cell patch-clamp</li><li>network clamp</li><li>prefrontal cortex</li><li>working memory</li></ul>
+
+    <details class="pdf-embed">
+      <summary>Read the thesis here</summary>
+      <iframe src="{{ '/assets/files/Erwan_Martin_PhD_2025_thesis.pdf' | relative_url }}" title="PhD thesis of Erwan Martin (PDF)" loading="lazy"></iframe>
+    </details>
+  </div>
+</section>
+
+<section class="pub">
+  <div class="pub-meta">
+    <span class="tag tag-model">Manuscript</span>
+    <p class="t-date">In preparation</p>
+  </div>
+  <div class="pub-body">
+    <h2>Research manuscript on the clustered attractor network and network clamp</h2>
+    <p class="muted">Co-first authors: Sam Mestern, Lawrence Oprea, Erwan Martin · with Wataru Inoue and Lyle Muller</p>
+    <p>The research manuscript behind chapters 3 and 4 of the thesis. I led the patch-clamp experiments, wrote the chapters and made the figures.</p>
+  </div>
+</section>
+
+<section class="pub" id="public-communication">
+  <div class="pub-meta">
+    <span class="tag tag-ai">Public writing</span>
+    <p class="t-date">2025</p>
+  </div>
+  <div class="pub-body pub-with-thumb">
+    <div>
+      <h2>Evolution of neural network models: perceptron, deep learning and the potential of spiking neural networks</h2>
+      <p>How artificial neural networks grew from the 1958 perceptron to transformers, how they differ from real neurons, and why spiking networks and neuromorphic hardware may be the next step.</p>
+      <div class="pub-links">
+        <a class="btn btn-primary" href="{{ '/publications/neural-network-models/' | relative_url }}">Read the article</a>
+        <a class="btn" href="{{ '/assets/files/Public_communication_Erwan_Martin.pdf' | relative_url }}" download>PDF</a>
+      </div>
+    </div>
+    <img src="{{ '/assets/img/projects/project2_thumb.png' | relative_url }}" alt="Perceptron versus spiking neuron diagram" loading="lazy">
+  </div>
+</section>
+
+<section class="pub">
+  <div class="pub-meta">
+    <span class="tag tag-neuro">Public writing</span>
+    <p class="t-date">Inspiring Minds · Western</p>
+  </div>
+  <div class="pub-body">
+    <h2>Studying the brain, one neuron at a time</h2>
+    <p>A short piece for Western University’s <em>Inspiring Minds</em> collection of graduate research stories.</p>
+    <div class="pub-links">
+      <a class="btn" href="https://ir.lib.uwo.ca/inspiringminds/274/" target="_blank" rel="noopener">Read on Scholarship@Western</a>
+    </div>
+  </div>
+</section>
