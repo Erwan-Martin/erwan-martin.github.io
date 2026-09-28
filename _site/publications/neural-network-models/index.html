@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Evolution of neural network models: perceptron, deep learning and the potential of spiking neural networks · Erwan Martin</title>
+  <meta name="description" content="How artificial neural networks evolved from the perceptron to transformers, and why spiking neural networks may be next.">
+  <link rel="canonical" href="http://localhost:4000/publications/neural-network-models/">
+  <meta property="og:title" content="Evolution of neural network models: perceptron, deep learning and the potential of spiking neural networks · Erwan Martin">
+  <meta property="og:description" content="How artificial neural networks evolved from the perceptron to transformers, and why spiking neural networks may be next.">
+  <meta property="og:image" content="http://localhost:4000/assets/img/default/profile_pic.jpg">
+  <meta property="og:url" content="http://localhost:4000/publications/neural-network-models/">
+  <meta name="theme-color" content="#0f1512">
+  <link rel="icon" href="/assets/img/favicons/favicon.ico">
+  <link rel="apple-touch-icon" href="/assets/img/favicons/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/assets/css/site.css">
+  <script>
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body class="">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">Erwan Martin</a>
+      <nav class="site-nav" aria-label="Main">
+        
+        
+        <a href="/cv/">CV</a>
+        
+        <a href="/publications/" aria-current="page">Publications</a>
+        
+        <a href="/projects/">Projects</a>
+        
+        <a href="/blog/">Blog</a>
+        
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.92-.1-1.36a5.39 5.39 0 0 1-4.4 2.26 5.4 5.4 0 0 1-3.14-9.8c-.44-.06-.9-.1-1.36-.1z"/></svg>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="wrap page prose-page">
+  <header class="page-head">
+    <p class="kicker"><a href="/publications/">Publications</a> · Public writing · 2025</p>
+    <h1>Evolution of neural network models: perceptron, deep learning and the potential of spiking neural networks</h1>
+    <p class="muted">Erwan Martin · <a href="/assets/files/Public_communication_Erwan_Martin.pdf" download>Download PDF</a></p>
+  </header>
+  <div class="prose">
+    <p>Artificial Neural Networks (ANNs) used in artificial intelligence today are inspired by the functioning of biological neurons but differ significantly from the networks present in the brain. Over the last decade, ANNs composed of perceptrons have grown in their ability to perform a wide range of practical applications, such as image and speech recognition, text generation (with large language models or LLMs), and image generation (with diffusion models).</p>
+
+<p>A perceptron is a computational unit that takes one or more inputs and produces a single output calculated by injecting input values in a mathematical function called an activation function. Since the perceptron model was proposed in 1958, the activation functions used have evolved from simple step functions to sigmoid and ReLU (Rectified Linear Unit) functions. Similarly, the architecture of perceptron-based networks has also evolved to improve their effectiveness.</p>
+
+<h2 id="the-evolution-of-deep-learning">The evolution of deep learning</h2>
+
+<p>In the early 2000s, with advancements in computer processing power and training techniques, the concept of deep learning became more prevalent. Deep learning involves organizing perceptrons in multiple layers, where each perceptron in a layer receives inputs from the perceptrons in the previous layer and sends its output to the next layer. These multilayer perceptrons can be trained by injecting data into the input layer and adjusting the weights of connections using the backpropagation algorithm. Through this process of trial and error, called supervised learning, the network starts to recognize patterns in the input data and becomes able to classify or transform it accordingly. The deeper the network (i.e., the more layers it has), the better it can capture high-level abstractions.</p>
+
+<p>By the early 2010s, the improvement of graphics processing units (GPUs) made training larger networks more rapid. GPUs are well-suited to perform numerous small calculations in parallel, which for training networks means matrix multiplications. Convolutional neural networks (CNNs) became prominent for their efficiency in recognizing patterns in images and speech for categorization.</p>
+
+<p>Between 2014 and 2017, significant progress was made in generative models with the development of diffusion models for image generation and the implementation of attention mechanisms in deep learning architectures like transformers. This led to the creation of large language models (LLMs) supported by even more efficient GPUs. These advancements have enabled the implementation of networks with very large architectures, such as transformer-based systems like ChatGPT, which require substantial computational resources to manage and analyze large volumes of data efficiently.</p>
+
+<h2 id="spiking-neural-networks-mimicking-biological-neurons">Spiking neural networks: mimicking biological neurons</h2>
+
+<p>Despite being inspired by biological neurons, perceptrons function quite differently. In biological neurons, the timing of inputs is crucial; a neuron responds differently based on how long ago it received its last input. In contrast, perceptron-based networks are unaffected by timing, processing inputs sequentially like an assembly line, regardless of the intervals between steps.</p>
+
+<p>In parallel with advancements in perceptron-based ANNs, a different type of network model called spiking neural networks (SNNs) has been developed. SNNs more closely replicate the functioning of biological neurons. In the brain, neurons have an electrical potential that varies continuously over time. This potential increases with excitatory inputs and decreases with inhibitory inputs. If the potential reaches a threshold, the neuron sends a signal to connected neurons. The response of neurons based on membrane voltage and the presence of both excitatory and inhibitory inputs allows for complex, non-linear dynamics. It is that complexity that enables cognition in the brain.</p>
+
+<p>SNNs capture this temporal aspect of neural dynamics, often using differential equations to model the evolution of electrical potential or other mathematical equations to predict when a neuron fires an action potential.</p>
+
+<figure>
+  <img src="/assets/img/projects/Picture1.png" alt="Artificial neural network (ANN) and spiking neural network (SNN) neuron models" loading="lazy" />
+  <figcaption>Figure 1. Artificial neural network (ANN) and spiking neural network (SNN).</figcaption>
+</figure>
+
+<p>Each neuron’s potential needs to be calculated at each time step, which can be time-consuming in large networks with detailed neuron models and connections.</p>
+
+<h2 id="synapses-and-neural-morphology">Synapses and neural morphology</h2>
+
+<p>Another crucial aspect of biological networks is the synapse, the point of contact where neurons transmit signals to each other. The effect of a signal on the target neuron’s electric potential is called the weight of the synapse. Similar to the weights in ANNs, synapses can change the effect of a signal through various mechanisms during learning and memory.</p>
+
+<figure class="narrow">
+  <img src="/assets/img/projects/Picture2.png" alt="Pyramidal neuron drawn by Ramón y Cajal, annotated with axon, cell body, dendrites and a recorded action potential" loading="lazy" />
+  <figcaption>Figure 2. A biological neuron, drawn by Ramón y Cajal [1].</figcaption>
+</figure>
+
+<p>Another factor which adds to the complexity of neural networks in the brain is the variety of neurons present in the brain. The shape and size of the different parts of the neuron can be different from one neuron to another (Figure 2). This diversity in morphology and other properties has been shown to be important for the brain to function properly. Yet simulating the exact functioning of a single biological neuron requires substantial computational power, equivalent to a high-end desktop computer for a single neuron, when including the smaller scale of molecular interaction. Given that the human brain contains around 86 billion neurons and approximately 100 trillion connections, simulating the entire brain at this level of detail is currently impossible.</p>
+
+<h2 id="challenges-and-future-directions-for-snns">Challenges and future directions for SNNs</h2>
+
+<p>Within spiking neural networks, there are different categories based on the level of abstraction. Some models predict the timing of neuron spikes without detailed sub-cellular processes, and models can be deterministic or probabilistic [2]. Currently, SNNs are difficult to train and use in practical applications of artificial intelligence because they are not well-suited to current computer architectures (known as von Neumann architecture). For that reason, their primary use is still to model, predict, and explain the mechanisms underlying the nervous system’s operation.</p>
+
+<p>Nevertheless, SNNs are considered the third generation of ANNs, and they are efficient because they have lower power consumption. Researchers are developing alternative neuromorphic hardware to better exploit the immense potential of SNNs [3].</p>
+
+<ol class="refs">
+  <li>Ramón y Cajal, <em>Histology of the Nervous System of Man and Vertebrates</em>, 1995.</li>
+  <li>Gerstner, Kistler, Naud, Paninski, <em>Neuronal Dynamics: From Single Neurons to Networks and Models of Cognition</em>, 2014.</li>
+  <li>Bouvier et al., <em>Spiking Neural Networks Hardware Implementations and Challenges: A Survey</em>, 2019.</li>
+</ol>
+
+  </div>
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-name">Erwan Martin</p>
+        <p class="muted">Neuroscientist &amp; bio-engineer · Paris, France</p>
+      </div>
+      <ul class="contact-links">
+        <li><a href="mailto:erwan.martin019@gmail.com">Email</a></li>
+        <li><a href="https://github.com/Erwan-Martin">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/erwan-martin019">LinkedIn</a></li>
+        <li><a href="https://www.researchgate.net/profile/Erwan-Martin-3">ResearchGate</a></li>
+      </ul>
+    </div>
+    <div class="wrap"><p class="muted small">© 2026 Erwan Martin</p></div>
+  </footer>
+  <script src="/assets/js/site.js" defer></script>
+</body>
+</html>
